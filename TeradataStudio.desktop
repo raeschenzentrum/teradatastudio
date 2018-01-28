@@ -1,0 +1,11 @@
+[Desktop Entry]
+Exec=/opt/teradata/TeradataStudio/TeradataStudio
+Icon=TeradataStudio
+Terminal=false
+Type=Application
+Name=Teradata Studio
+Comment=IDE for developing Teradata SQL scripts
+Categories=Development;WebDevelopment;IDE;Utility;TextEditor;
+MimeType=text/plain;
+StartupNotify=true
+StartupWMClass=TeradataStudio
