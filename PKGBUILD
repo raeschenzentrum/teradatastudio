@@ -1,5 +1,5 @@
 pkgname=teradata-studio
-pkgver=16.20.03.00
+pkgver=16.20.04.00
 pkgrel=1
 pkgdesc="TeradataStudio"
 arch=('x86_64')
@@ -10,7 +10,7 @@ makedepends=('rpmextract')
 
 source=("TeradataStudio64__linux_x86_64.${pkgver}-1.tar.gz"
         "TeradataStudio.desktop")
-md5sums=('26b507b2ee4017bbd5c8fea06aa9683b'
+md5sums=('1326c70840bbef6024638140a3ee6f19'
          '9b3b3b786508d44af4950889abbc0d87')
 
 package() {
