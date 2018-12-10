@@ -1,5 +1,6 @@
+#!/usr/bin/env xdg-open
 [Desktop Entry]
-Exec=/opt/teradata/TeradataStudio/TeradataStudio
+Exec=sh -c "PATH=/usr/lib/jvm/java-10-openjdk/bin/:$PATH /opt/teradata/TeradataStudio/TeradataStudio"
 Icon=TeradataStudio
 Terminal=false
 Type=Application
