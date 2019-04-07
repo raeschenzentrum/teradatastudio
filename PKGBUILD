@@ -1,17 +1,17 @@
 pkgname=teradata-studio
-pkgver=16.20.09.00
-pkgrel=1
+pkgver=16.20.10.00
+pkgrel=2
 pkgdesc="TeradataStudio"
 arch=('x86_64')
 url="http://downloads.teradata.com/download/tools/teradata-studio"
 license=('Proprietary')
-depends=('java-runtime-headless-openjdk=10')
+depends=('java-runtime-headless-openjdk=8')
 makedepends=('rpmextract')
 
 source=("TeradataStudio64__linux_x86_64.${pkgver}-1.tar.gz"
         "TeradataStudio.desktop")
-md5sums=('1c8d21c1389bcb60d445bd18a260047f'
-         'a99e038afd069d5b474b169a7a81e954')
+md5sums=('ad074c364ca84a4c8451650edf696374'
+         'a835d3f6538033aa0d83f1bf4d9ce5bd')
 
 package() {
   install -dm755 ${pkgdir}/opt/teradata/TeradataStudio
