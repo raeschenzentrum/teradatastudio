@@ -11,7 +11,7 @@ URL: http://downloads.teradata.com/download/tools/teradata-studio
 
 21.10.2020 Changed to pkgver=17.00.11.00 
 
-HOW TO INSTALL
+HOW TO INSTALL ON MANJARO / ARCH LINUX
 
 git clone https://github.com/raeschenzentrum/teradatastudio.git
 makepkg
