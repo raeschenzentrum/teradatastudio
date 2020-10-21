@@ -14,7 +14,9 @@ URL: http://downloads.teradata.com/download/tools/teradata-studio
 HOW TO INSTALL ON MANJARO / ARCH LINUX
 
 git clone https://github.com/raeschenzentrum/teradatastudio.git
+
 makepkg
+
 makepkg --install
 
 Big Thanks to Paresh Adhia for original https://github.com/padhia/teradata-studio
