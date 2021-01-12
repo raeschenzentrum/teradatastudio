@@ -15,6 +15,8 @@ HOW TO INSTALL ON MANJARO / ARCH LINUX
 
 git clone https://github.com/raeschenzentrum/teradatastudio.git
 
+pamac install rpmextract
+
 makepkg
 
 makepkg --install
